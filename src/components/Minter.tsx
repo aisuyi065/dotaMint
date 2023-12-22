@@ -11,7 +11,7 @@ import { BigNumberInBase } from "@injectivelabs/utils";
 //主网
 // const network = getNetworkInfo(Network.Mainnet);
 
-let polkadotlWSS = "https://polkadot-rpc.dwellir.com";
+let polkadotlWSS = "https://polkadot.api.onfinality.io/public";
 // const polkadotProvider = new WsProvider(polkadotlWSS);
 const network = new HttpProvider(polkadotlWSS);
 
